@@ -3,6 +3,22 @@
 > AI-powered smart farming platform with skeuomorphic Blue & White UI — built with Next.js 15, Spring Boot, Prisma, and Supabase.
 
 [![Live Demo](https://img.shields.io/badge/Live-intellifarm--alpha.vercel.app-blue?style=flat-square)](https://intellifarm-alpha.vercel.app)
+[![Architecture Diagrams](https://img.shields.io/badge/UML%20Architecture-7%20Diagrams-green?style=flat-square)](https://intellifarm-alpha.vercel.app/diagrams.html)
+[![CI Checks](https://github.com/2511cs010100-pixel/IntelliFarm/actions/workflows/ci.yml/badge.svg)](https://github.com/2511cs010100-pixel/IntelliFarm/actions)
+
+---
+
+## 🏛️ System Architecture & UML Diagrams
+The complete interactive UML engineering suite (with pure white backgrounds and detailed descriptions) is available at:
+👉 **[Interactive Architecture Viewer](https://intellifarm-alpha.vercel.app/diagrams.html)**
+
+1. **Entity-Relationship (ER) Diagram** — Data models, cardinalities, and associations.
+2. **Database Physical Schema Diagram** — 4 core functional domains across 23 tables.
+3. **Use Case Diagram** — Role-based boundaries for Farmer, Agronomist, Admin, AI Vision, and Weather.
+4. **Class Diagram** — Domain services, encapsulation, and method contracts.
+5. **Sequence Diagram** — End-to-end trace from leaf diagnosis to agronomist ticket escalation.
+6. **Activity Diagram** — Smart irrigation decision flowchart with heat and rain gating.
+7. **Deployment Diagram** — Cloud microservices topology (Vercel, Supabase, Groq LPU).
 
 ---
 
